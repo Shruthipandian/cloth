@@ -3,7 +3,7 @@ package shopping;
 import java.util.Scanner;
 
 public class item {
-    public static void main(String[] args) {
+    public static void itemMenu() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Item options menu:\n" +
                 "0.  Return to main menu.\n" +
